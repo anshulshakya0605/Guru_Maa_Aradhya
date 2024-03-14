@@ -1,0 +1,2586 @@
+@import 'https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;1,300;1,400;1,500;1,600;1,700;1,800&display=swap';
+@import 'https://fonts.googleapis.com/css2?family=Manrope:wght@200;300;400;500;600;700;800&display=swap';
+
+html {
+    scroll-behavior: smooth
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    overflow-x: hidden;
+    font-family: jost
+}
+
+a {
+    text-decoration: none
+}
+
+ul,
+ol {
+    list-style: none;
+    margin: 0;
+    padding: 0
+}
+
+img {
+    max-width: 100% !important
+}
+
+.spinner-loading-box {
+    text-align: center;
+    justify-content: center;
+    margin: 0 auto;
+    position: fixed;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    cursor: pointer;
+    z-index: 999999
+}
+
+.spinner-loading-box img,
+.ets-theme-header-section :is(.ets-topabr-address, .ets-topabr-email) li {
+    width: 100%
+}
+
+.elemento-farm-head-contact ul.ekit-header-info {
+    justify-content: start
+}
+
+.home #coffee-main-header {
+    position: absolute;
+    z-index: 100;
+    top: 0;
+    left: 0;
+    right: 0
+}
+
+#ecoffee-about-us-section .page-template-default {
+    position: absolute;
+    z-index: 99;
+    top: 0;
+    left: 0;
+    right: 0
+}
+
+.page-template-default #coffee-main-header {
+    z-index: 99;
+    top: 0;
+    left: 0;
+    right: 0
+}
+
+#ecoffee-about-us-section {
+    position: absolute;
+    width: 100%;
+    top: 0;
+    left: 0;
+    z-index: 10
+}
+
+.page-template-default #coffee-main-header {
+    margin-bottom: 180px
+}
+
+.sticky {
+    position: fixed;
+    width: 100%;
+    z-index: 999 !important;
+    top: 0;
+    left: 0;
+    border-radius: 0 !important;
+    padding: 8px 0 !important;
+    box-shadow: 0 0 10px 0 rgb(0 0 0/50%)
+}
+
+.sticky .hfe-creative-menu ::after {
+    display: none !important
+}
+
+.elemento-coffee-logo-section {
+    left: 10px;
+    top: 5px
+}
+
+.elemento-coffee-primary-menu-section {
+    padding: 0 !important
+}
+
+.elemento-farm-navigation-box .mfp-bg {
+    position: fixed !important
+}
+
+.elemento-farm-head-contact .ekit-wid-con .ekit-header-info svg {
+    height: 20px
+}
+
+.elemento-farm-head-contact .ekit-wid-con .ekit-header-info svg {
+    max-width: 17px
+}
+
+.ecoffee-main-header .ecoffee-search-icon .ekit-wid-con {
+    direction: rtl !important
+}
+
+.mfp-content .ekit-search-group .ekit_search-field {
+    direction: ltr !important
+}
+
+.ekit-search-button i::before {
+    font-size: 20px !important;
+    color: #fff !important
+}
+
+.efarm-middle-header-sec .elementor-container.elementor-column-gap-default {
+    align-items: center
+}
+
+.ecoffee-main-header .hfe-creative-menu ::after {
+    height: 2px !important;
+    width: 80% !important;
+    margin: 0 auto !important;
+    left: 0 !important;
+    bottom: -10px !important;
+    right: 0 !important;
+    justify-content: center;
+    text-align: center;
+    opacity: 1;
+    background-color: #a06f48 !important
+}
+
+.elemento-farm-head-phone-box svg {
+    background: #f8f7f1;
+    height: 15px;
+    width: 15px;
+    border-radius: 50%;
+    padding: 12px
+}
+
+.efarm-cart-icon span.woocommerce-Price-amount.amount {
+    display: none
+}
+
+.elemento-farm-navigation-box ul ul li a {
+    color: #fff !important;
+    padding: 10px !important;
+    font-size: 16px !important;
+    margin-bottom: 10px
+}
+
+.elemento-farm-slider-sec .bdt-ps-button-wrapper,
+span.hfe-menu-toggle.sub-arrow {
+    display: none !important
+}
+
+.elemento-farm-navigation-box .mfp-bg.ekit-promo-popup {
+    max-height: 480px
+}
+
+.elemento-farm-navigation-box .mfp-bg.ekit-promo-popup {
+    -webkit-animation: slideInDown .8s ease-out forwards;
+    animation: slideInDown .8s ease-out forwards;
+    border-radius: 0;
+    padding-bottom: 0%
+}
+
+.elemento-farm-navigation-box .ekit-promo-popup.my-mfp-slide-bottom.mfp-ready .zoom-anim-dialog,
+.elemento-farm-navigation-box .ekit-promo-popup.my-mfp-slide-bottom .zoom-anim-dialog {
+    transform: unset !important
+}
+
+.elemento-farm-navigation-box .mfp-container {
+    height: auto !important;
+    top: 25% !important
+}
+
+.elemento-farm-navigation-box .ekit_modal-searchPanel .ekit-search-group input:not([type=submit]) {
+    border-width: 0 0 2px;
+    border-color: #fff;
+    border-radius: 0
+}
+
+.ecoffee-main-slider .bdt-prime-slider {
+    z-index: 3
+}
+
+.bdt-prime-slider-dragon .bdt-dotnav li {
+    height: 14px;
+    width: 14px;
+    border: 1px solid #fff;
+    border-radius: 50%;
+    padding: 0 !important;
+    opacity: 1 !important
+}
+
+.bdt-prime-slider-dragon .bdt-dotnav {
+    flex-direction: unset;
+    top: unset !important;
+    bottom: 75px !important;
+    gap: 6px;
+    left: 8%
+}
+
+.bdt-prime-slider-dragon .bdt-dotnav li:after {
+    content: none !important;
+    font-size: 15px;
+    color: #fff;
+    transition: all .3s ease;
+    cursor: pointer
+}
+
+.bdt-prime-slider-dragon .bdt-dotnav li:before {
+    content: '';
+    position: absolute;
+    right: 20px;
+    background: #fff;
+    height: 0 !important;
+    width: 0;
+    top: 50%;
+    transform: translateY(-50%);
+    transition: all .3s ease;
+    border-radius: 3px;
+    opacity: 0
+}
+
+.bdt-prime-slider-dragon .bdt-dotnav li.bdt-active {
+    background-color: #a06f48;
+    border: 1px solid #a06f48
+}
+
+.elemento-farm-slider-sec .bdt-prime-slider-dragon .bdt-ps-dragon-slide-image {
+    -webkit-mask-image: unset
+}
+
+.home.page-template-default .elemento-farm-navigation-box {
+    margin-bottom: -46px;
+    z-index: 99
+}
+
+.elemento-farm-slider-sec .bdt-ps-button-text {
+    border: 1px solid #fff;
+    padding: 15px 25px;
+    border-radius: 10px;
+    transition: .3s ease-in
+}
+
+.elemento-farm-slider-sec .bdt-ps-button-text:hover {
+    background-color: #a06f48;
+    color: #fff;
+    border: 1px solid #a06f48
+}
+
+.elemento-farm-slider-sec h1.bdt-title-tag {
+    width: 69%;
+    text-transform: capitalize !important
+}
+
+.bdt-prime-slider-dragon .bdt-prime-slider-wrapper .bdt-prime-slider-content .bdt-main-title .bdt-title-tag {
+    padding-bottom: 25px !important
+}
+
+.elemento-farm-slider-sec p {
+    width: 87%;
+    letter-spacing: 2px
+}
+
+.efarm-sllder-bottom-image {
+    position: absolute;
+    bottom: 0
+}
+
+#maincontent {
+    padding-top: 3em
+}
+
+.efarm-feature-box-sec {
+    position: absolute;
+    top: -8em;
+    z-index: 9
+}
+
+.efarm-feature-box-sec p.elementor-icon-box-description {
+    width: 92%
+}
+
+.woolentor-breadcrumb .woocommerce-breadcrumb a {
+    color: #fff !important;
+    font-family: jost
+}
+
+.ecoffee-404-page-section .elementor-widget-wrap {
+    padding: 0 !important
+}
+
+.ecoffee-banner-title .elementor-widget:not(:last-child) {
+    margin-bottom: 5px !important
+}
+
+.ecoffee-book-a-table .elementor-widget-wrap {
+    padding: 0 !important
+}
+
+.ecoffee-footer-booktable-upper-image {
+    position: relative
+}
+
+.ecoffee-footer-booktable-upper-image img {
+    position: absolute;
+    z-index: 99;
+    left: 1%;
+    bottom: -55px
+}
+
+.ecoffee-faq-page-section .htwoolentor-faq-card.is-active .htwoolentor-faq-head {
+    color: #fff;
+    border-color: #a06f48;
+    background-color: #a06f48
+}
+
+.ecoffee-about-us-section .elementor-widget-wrap {
+    padding: 0 !important
+}
+
+.ecoffee-about-us-section {
+    z-index: 1
+}
+
+.ecoffee-about-us-section-bgimg1 img {
+    position: absolute;
+    top: -81px;
+    left: 0;
+    z-index: 9
+}
+
+.ecoffee-about-us-section-bgimg2 img {
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    z-index: 9
+}
+
+.elemento-coffee-about-section-title .elementor-heading-title {
+    background-color: #ff6f00;
+    width: max-content;
+    padding: 8px 20px;
+    border-radius: 10px
+}
+
+.elemento-coffee-about-section-second-heading .ekit-wid-con .ekit-header-info,
+.ekit-wid-con .ekit-header-info a {
+    display: contents !important
+}
+
+.elemento-coffee-about-us-section .ekit-header-info>li>a svg path {
+    fill: #a06f48 !important
+}
+
+.efarm-about-us-sec h2.elementor-heading-title {
+    width: 54%
+}
+
+.efarm-about-us-sec p {
+    width: 64%
+}
+
+.ecoffee-menu-page .wl_single-product-item.wl_left-item .product-content .action {
+    display: flex;
+    align-self: flex-end;
+    gap: 10px;
+    margin-top: -75px;
+    background-color: unset;
+    padding: 10px 18px 18px 150px
+}
+
+.wl_single-product-item .product-content .action li a,
+.wl_single-product-item .product-content .action .action-item {
+    width: 33px;
+    height: 33px;
+    line-height: 33px;
+    background: #f2f2f2;
+    text-align: center;
+    border-radius: 5px;
+    color: #000 !important
+}
+
+.wl_single-product-item .product-content .action li a:hover {
+    background: #a06f48;
+    color: #fff !important
+}
+
+.wl_single-product-item .product-content .action .action-item:hover {
+    background: #a06f48;
+    color: #fff !important
+}
+
+.wl_single-product-item .product-content .action a.added_to_cart.wc-forward:after {
+    position: absolute;
+    text-indent: 0;
+    content: "\e017";
+    font-family: WooCommerce;
+    left: 10px;
+    right: 0;
+    font-size: 15px;
+    margin: 0 auto !important
+}
+
+.wl_cart .woocommerce .loader::before {
+    display: none !important
+}
+
+.ecoffee-menu-page .wl_single-product-item .product-content .product-content-top .product-price {
+    color: #0a3aca;
+    float: right;
+    border-left: 1px solid #bcbcbc;
+    padding-left: 30px;
+    height: 102px
+}
+
+.ecoffee-menu-page ins {
+    text-decoration: unset !important
+}
+
+.ecoffee-menu-page .wl_single-product-item .product-thumbnail .images img {
+    width: 48% !important;
+    display: inline-block;
+    border-radius: 8%;
+    width: 100%
+}
+
+.ecoffee-menu-page .wl_single-product-item.wl_left-item .product-thumbnail {
+    height: auto
+}
+
+.ecoffee-menu-page .wl_single-product-item .product-thumbnail .images {
+    border-radius: 0
+}
+
+.ecoffee-menu-page .wl_single-product-item .product-thumbnail {
+    border-radius: 0;
+    text-align: start !important
+}
+
+.ecoffee-menu-page .wl_single-product-item.wl_left-item .product-thumbnail .images {
+    box-shadow: none !important
+}
+
+.ecoffee-menu-page .wl_single-product-item {
+    background: 0 0
+}
+
+.ecoffee-menu-page .wl_single-product-item.wl_left-item .product-content .product-content-top {
+    padding: 30px 20px 12px 56px
+}
+
+.ecoffee-menu-page .wl_single-product-item.wl_left-item .product-content {
+    z-index: 9
+}
+
+.ecoffee-menu-page .price {
+    display: flex;
+    flex-direction: column-reverse;
+    margin-top: 8px
+}
+
+.ecoffee-menu-page del span bdi {
+    font-size: 16px !important;
+    display: block !important;
+    text-align: center !important
+}
+
+.ecoffee-menu-page .product-price del {
+    display: flex !important;
+    flex-direction: column-reverse !important;
+    order: reverse !important
+}
+
+.ecoffee-menu-page .wl_single-product-item.wl_left-item .product-thumbnail {
+    width: 284px
+}
+
+.ecoffee-menu-page .wl_single-product-item .product-thumbnail {
+    border: 15px solid #fff;
+    text-align: center;
+    border-radius: 0 !important;
+    width: 100%;
+    position: relative;
+    z-index: 9
+}
+
+.ecoffee-menu-page .wl_single-product-item.wl_left-item {
+    border-radius: 5px !important;
+    box-shadow: 0 0 6px rgb(112 112 112/20%);
+    background: #fff
+}
+
+.ecoffee-menu-page .wl_single-product-item .product-content .product-content-top .product-price {
+    margin-top: 0 !important
+}
+
+.ecoffee-menu-page .wl_single-product-item.wl_left-item .product-content .product-price {
+    margin-top: -48px !important
+}
+
+.ecoffee-book-a-table .bookly-form .bookly-btn {
+    background-color: #a06f48 !important
+}
+
+.ecoffee-book-a-table .bookly-form .bookly-progress-tracker>.active .step {
+    background-color: #a06f48 !important
+}
+
+.ecoffee-book-a-table .bookly-form .bookly-progress-tracker>.active {
+    color: #a06f48 !important
+}
+
+.ecoffee-book-a-table .bookly-form .bookly-form-group>label {
+    color: #a06f48 !important;
+    font-weight: 600 !important
+}
+
+.ecoffee-book-a-table .bookly-form .bookly-service-step .bookly-week-days label {
+    background-color: #a06f48 !important
+}
+
+.ecoffee-book-a-table .bookly-form .bookly-columnizer .bookly-day,
+.bookly-form .bookly-schedule-date {
+    background: #a06f48 !important;
+    border: 1px solid #a06f48 !important
+}
+
+.ecoffee-book-a-table .bookly-form .picker__frame {
+    background-color: #a06f48 !important
+}
+
+.ecoffee-book-a-table .bookly-form label {
+    font-size: 16px !important
+}
+
+.ecoffee-book-a-table .bookly-progress-tracker>div {
+    font-size: 16px !important;
+    font-weight: 600 !important
+}
+
+.elemento-coffee-specialmenu-section-title h2 {
+    background-color: #ff6f00;
+    width: max-content;
+    padding: 8px 20px;
+    border-radius: 10px;
+    margin: 0 auto
+}
+
+.ecoffee-special-menu-section .ht-tab-menus {
+    width: max-content;
+    display: inline-block;
+    border-radius: 8px;
+    border: 1px solid #bcbcbc;
+    position: relative;
+    z-index: 2;
+    flex-wrap: wrap;
+    padding: 4px 0
+}
+
+.ecoffee-special-menu-section .ht-tab-menus li a {
+    background-color: none !important
+}
+
+.ecoffee-special-menu-section .woolentor-action-btn-area {
+    margin: 0 auto !important
+}
+
+.ecoffee-special-menu-section .ht-product-image img {
+    border-radius: 20px !important
+}
+
+.ecoffee-special-menu-section .ht-products .ht-product .ht-product-inner {
+    border: 0 !important
+}
+
+.ecoffee-special-menu-section .ht-products .ht-product .ht-product-inner .ht-product-content {
+    background-color: unset !important
+}
+
+.ecoffee-special-menu-section ins .woocommerce-Price-amount {
+    display: inline-block !important
+}
+
+.ecoffee-special-menu-section .woolentor-action-btn-area {
+    display: flex !important;
+    flex-direction: row-reverse !important
+}
+
+.ecoffee-special-menu-section .ht-product .ht-product-inner .ht-product-action ul li a {
+    border-radius: 8px;
+    border: 1px solid #f2f2f2
+}
+
+.ecoffee-special-menu-section .ht-product .ht-product-inner .ht-product-action ul li a:hover {
+    background: #a06f48;
+    color: #fff !important
+}
+
+.ecoffee-special-menu-section .sli-magnifier:before {
+    content: "\f06e";
+    font-family: fontawesome;
+    font-weight: 600;
+    width: 30px;
+    height: 30px;
+    vertical-align: middle;
+    position: inherit;
+    font-weight: 400
+}
+
+.ecoffee-special-menu-section span.ht-product-label.ht-product-label-right {
+    display: none
+}
+
+.ecoffee-special-menu-section .ht-product-content-inner .ht-product-price span del span {
+    font-size: 18px !important;
+    font-weight: 500
+}
+
+.ecoffee-special-menu-section .ht-product-price .price {
+    display: flex !important;
+    flex-direction: row-reverse !important;
+    gap: 5px !important
+}
+
+.ecoffee-special-menu-section .ht-product-price {
+    padding: 8px 0
+}
+
+.ecoffee-special-menu-section .ht-product-content-inner .ht-product-price {
+    margin-bottom: 0 !important
+}
+
+.ecoffee-special-menu-section .ht-products .ht-product.ht-product-action-bottom-content .ht-product-inner .ht-product-ratting-wrap+.ht-product-action {
+    margin-top: 0 !important
+}
+
+.ecoffee-special-menu-section .ht-products .ht-product .ht-product-inner:hover {
+    box-shadow: none !important
+}
+
+.ecoffee-special-menu-section .ht-product-content-inner {
+    background-color: #fff;
+    border-radius: 20px;
+    margin-top: -28%;
+    padding: 20px 0
+}
+
+.ecoffee-special-menu-section ins::after {
+    font-family: fontawesome;
+    font-weight: 500;
+    font-family: jost;
+    content: "/";
+    width: 25px;
+    height: 25px;
+    color: #000;
+    padding-left: 5px
+}
+
+.ecoffee-special-menu-section ins {
+    text-decoration: unset !important
+}
+
+.ecoffee-special-menu-section .ht-products .ht-product.ht-product-action-bottom-content .ht-product-inner .ht-product-action {
+    z-index: 7 !important
+}
+
+#htwlquick-viewmodal .htcloseqv {
+    padding: 5px !important;
+    border: 2px solid #a06f48;
+    background: unset !important
+}
+
+.htcloseqv .sli-close {
+    font-size: 20px !important
+}
+
+.ecoffee-special-menu-section .ht-products .ht-product .ht-product-inner .ht-product-action ul li a {
+    width: 33px !important;
+    height: 33px !important
+}
+
+.woocommerce a.added_to_cart {
+    padding-top: .5em;
+    display: inline-block;
+    padding: 6px 17px;
+    margin-left: 10px !important;
+    background-color: #a06f48;
+    color: #fff;
+    border-radius: 3px
+}
+
+.woocommerce .qwick-view-content .price ins {
+    text-decoration: none
+}
+
+#htwlquick-viewmodal.woocommerce div.product .woocommerce-product-gallery__image img {
+    border: 0 solid #ccc !important;
+    width: 100%
+}
+
+#htwlquick-viewmodal.woocommerce button.button.alt {
+    background-color: #a06f48;
+    color: #fff;
+    font-weight: 400;
+    line-height: 1
+}
+
+#htwlquick-viewmodal.woocommerce div.product p.price,
+#htwlquick-viewmodal.woocommerce div.product span.price {
+    color: #a06f48;
+    font-size: 1.25em;
+    margin-bottom: 15px
+}
+
+.ht-quick-view-thumbnails .slick-slide img {
+    display: none
+}
+
+a.woocommerce-review-link,
+.product-name a {
+    color: #666;
+    font-size: 15px
+}
+
+#htwlquick-viewmodal.woocommerce div.product .product_title {
+    margin-top: 10px !important;
+    color: #000
+}
+
+.woocommerce-cart #coffee-main-header {
+    margin-bottom: 0 !important
+}
+
+.single-product .woocommerce-Price-amount {
+    color: #a06f48 !important
+}
+
+.single-product .price ins {
+    text-decoration: none
+}
+
+.woocommerce span.onsale {
+    display: none !important
+}
+
+.woocommerce nav.woocommerce-pagination ul {
+    border: unset !important
+}
+
+.woocommerce nav.woocommerce-pagination ul li {
+    border-right: unset !important
+}
+
+.woocommerce nav.woocommerce-pagination ul li span {
+    line-height: 1;
+    font-size: 1em;
+    font-weight: 400;
+    padding: 10px 15px !important;
+    display: block;
+    margin: 0 5px !important
+}
+
+.woocommerce nav.woocommerce-pagination ul li a {
+    line-height: 1;
+    font-size: 1em;
+    font-weight: 400;
+    padding: 10px 15px !important;
+    display: block;
+    margin: 0 5px !important
+}
+
+.wishlist_table tr td {
+    text-align: unset !important
+}
+
+.woocommerce-cart .actions .button {
+    background-color: #a06f48 !important;
+    color: #fff !important;
+    opacity: 1 !important
+}
+
+.wishlist-title a.show-title-form {
+    display: none !important
+}
+
+.yith_wcwl_wishlist_footer .yith-wcwl-share {
+    gap: 10px;
+    display: flex
+}
+
+.wishlist_table .product-add-to-cart a {
+    display: table !important;
+    margin: 0 auto 5px !important;
+    text-align: center;
+    padding: .618em 1em !important;
+    background: #a06f48 !important;
+    border-radius: 3px !important;
+    color: #fff;
+    font-weight: 600
+}
+
+.woocommerce-wishlist #coffee-main-header {
+    margin-bottom: 0 !important
+}
+
+.woocommerce-wishlist .wishlist-title-container {
+    margin-top: 50px
+}
+
+.woocommerce-wishlist .ecoffee-topbar-mobile-no-section .ekit-header-info>li>a {
+    color: #000 !important
+}
+
+.woocommerce-wishlist .ecoffee-topbar-mail-section .ekit-header-info>li>a {
+    color: #000 !important
+}
+
+.woocommerce-wishlist .ecoffee-topbar-map-section .ekit-header-info>li>a {
+    color: #000 !important
+}
+
+.woocommerce-wishlist .ecoffee-topbar-social-media-section li a {
+    color: #000 !important
+}
+
+.woocommerce-account #coffee-main-header {
+    margin-bottom: 0 !important
+}
+
+.efarm-record-top-image img {
+    top: 0
+}
+
+.efarm-record-box {
+    border-right: 1px solid #ffffffa8
+}
+
+.efarm-record-top-image img,
+.efarm-record-bottom-image img {
+    position: absolute;
+    z-index: 9;
+    left: 0;
+    right: 0
+}
+
+.efarm-record-bottom-image img {
+    bottom: 0
+}
+
+.efarm-record-bottom-image .elementor-column {
+    min-height: auto
+}
+
+.efarm-fresh-fruit-banner p,
+.efarm-fresh-fruit-banner h2 {
+    width: 88%
+}
+
+.efarm-fresh-fruit-banner span.last {
+    color: #286016
+}
+
+.efarm-project-box .ea-content {
+    position: absolute;
+    bottom: 0;
+    left: 25px
+}
+
+.efarm-project-box .ea-item.swiper-slide {
+    position: relative
+}
+
+.efarm-project-box h3.ea-title {
+    width: 95%
+}
+
+.efarm-video-image .elementor-widget-wrap {
+    border-radius: 12px 12px 12px 120px;
+    padding: 14em 0 !important
+}
+
+.efarm-video-experienec-box {
+    left: -5em !important;
+    top: 35px !important
+}
+
+.efarm-video-content p {
+    width: 80%
+}
+
+.ecoffee-main-testimonial-section-title h2 {
+    background-color: #a06f48;
+    width: max-content;
+    padding: 8px 20px;
+    border-radius: 10px;
+    margin: 0 auto
+}
+
+.ecoffee-main-testimonial-section .ea-testimonial-content {
+    width: 575px;
+    margin: 0 auto
+}
+
+.ecoffee-main-testimonial-section img {
+    width: 75px;
+    height: 75px
+}
+
+.ecoffee-main-testimonial-section .ea-slick-slider li.slick-active {
+    background: #a06f48 !important;
+    border: unset
+}
+
+.ecoffee-main-testimonial-section .slick-dots li button::before {
+    color: unset !important
+}
+
+.ecoffee-main-testimonial-section .slick-dots li {
+    width: 13px !important;
+    height: 13px !important;
+    background: 0 0;
+    border: 1px solid #fff
+}
+
+.ecoffee-testimonial-video-section .elementor-widget-video .elementor-custom-embed-image-overlay img {
+    display: none !important
+}
+
+.ecoffee-testimonial-video-section .elementor-custom-embed-play {
+    z-index: 99;
+    display: contents
+}
+
+.ecoffee-testimonial-video-section {
+    width: 25% !important
+}
+
+.elemento-coffee-testimonial-section-title .elementor-heading-title {
+    background-color: #a06f48;
+    width: max-content;
+    padding: 8px 20px;
+    border-radius: 10px;
+    display: inline-block
+}
+
+.elemento-coffee-testimonial-opening-hour .elementor-widget-wrap {
+    justify-content: center !important;
+    display: inline-grid !important;
+    line-height: 18px !important
+}
+
+.elemento-coffee-testimonial-table-res-section .ekit-header-info>li>a svg {
+    margin-right: 10px;
+    background-color: #fff;
+    padding: 10px;
+    margin-bottom: -19px;
+    border-radius: 5px
+}
+
+.elemento-coffee-testimonial-table-res-section .ekit-wid-con .ekit-header-info,
+.ekit-wid-con .ekit-header-info a {
+    display: flow-root !important
+}
+
+.elemento-coffee-testimonial-table-res-section .ekit-wid-con .ekit-header-info li:nth-child(2) {
+    padding-left: 56px !important
+}
+
+#efarm-testimonial-slider-box .elementskit-single-testimonial-slider {
+    display: flex;
+    flex-direction: column;
+    overflow: visible
+}
+
+#efarm-testimonial-slider-box .elementskit-commentor-bio.client_left {
+    position: absolute;
+    top: -40px;
+    left: 30px;
+    width: max-content
+}
+
+#efarm-testimonial-slider-box .elementskit-profile-info {
+    order: 2;
+    text-align: left;
+    position: absolute;
+    bottom: 0
+}
+
+#efarm-testimonial-slider-box .elementskit-commentor-content {
+    order: 1;
+    position: unset
+}
+
+#efarm-testimonial-slider-box ul.elementskit-stars {
+    position: absolute;
+    right: 25px;
+    bottom: 8px
+}
+
+#efarm-testimonial-slider-box p {
+    text-align: left;
+    padding-bottom: 25px;
+    border-bottom: 1px solid #121212
+}
+
+#efarm-testimonial-slider-box .slick-list.swiper-wrapper {
+    padding: 6em 0 20px
+}
+
+#efarm-testimonial-slider-box {
+    margin-top: -13em
+}
+
+#efam-testimonial-sec p {
+    width: 46%;
+    margin: 0 auto
+}
+
+.elemento-coffee-offer-section {
+    margin: 0 auto !important;
+    padding: 0 60px
+}
+
+.ecoffee-special-offer-section {
+    position: relative
+}
+
+.ecoffee-special-offer-section .elementor-widget-wrap {
+    padding: 0 !important
+}
+
+.ecoffee-special-offer-section-bgimg1 img {
+    position: absolute;
+    left: 0;
+    bottom: 0
+}
+
+.ecoffee-special-offer-section-bgimg2 img {
+    position: absolute;
+    right: 0;
+    bottom: 30px
+}
+
+.elemento-coffee-offer-section-title .elementor-heading-title {
+    background-color: #a06f48;
+    width: max-content;
+    padding: 8px 20px;
+    border-radius: 10px
+}
+
+.elemento-coffee-offer-section .ekit-header-info>li>a svg path {
+    fill: #a06f48 !important
+}
+
+#efarm-what-we-offer-box h2.elementor-heading-title {
+    width: 70%
+}
+
+#efarm-what-we-offer-box p {
+    width: 73%
+}
+
+.efarm-offer-image-text .elementor-widget-container {
+    background: #01392b;
+    opacity: .8
+}
+
+.elemento-coffee-team-section-title h2 {
+    background-color: #ff6f00;
+    width: max-content;
+    padding: 8px 20px;
+    border-radius: 10px;
+    display: inline-block
+}
+
+.elemento-coffee-team-section-carousel .ea-tm-content.ea-tm-content-normal {
+    background: #fff;
+    padding: 10px 0;
+    border-radius: 0 0 12px 12px;
+    margin-top: -16px
+}
+
+#coffee-team-section .elemento-coffee-team-section-carousel .ea-tm ul li {
+    width: 35px;
+    height: 35px;
+    background: #000;
+    padding: 7px;
+    border-radius: 5px;
+    transition: .5s ease
+}
+
+#coffee-team-section .elemento-coffee-team-section-carousel .ea-tm ul li:hover {
+    background: #a06f48
+}
+
+.elemento-coffee-team-section-carousel .ea-tm ul li span.ea-tm-social-icon-wrap {
+    color: #fff
+}
+
+.elemento-coffee-team-section-carousel .ea-tm {
+    position: relative
+}
+
+.elemento-coffee-team-section-carousel .ea-tm .ea-tm-social-links-wrap {
+    display: none
+}
+
+.elemento-coffee-team-section-carousel .ea-tm:hover .ea-tm-social-links-wrap {
+    display: block
+}
+
+.elemento-coffee-team-section-carousel .ea-tm:hover .ea-tm-content {
+    position: absolute;
+    width: 100%;
+    top: 88%
+}
+
+.elemento-coffee-team-section-carousel .swiper-container-wrap .swiper-pagination-bullet-active {
+    background: #a06f48;
+    border: none
+}
+
+.elemento-coffee-team-section-carousel .swiper-pagination-bullet {
+    background: #e0d9ca;
+    border: 1px solid
+}
+
+#efarm-product-box .ht-product-inner {
+    background: #fff
+}
+
+#efarm-product-box .ht-product-action {
+    opacity: 0;
+    transition: .5s
+}
+
+#efarm-product-box .ht-product-inner:hover .ht-product-action {
+    opacity: 1;
+    transition: .5s
+}
+
+#efarm-product-box span.ht-product-label.ht-product-label-right {
+    display: none
+}
+
+.ecofee-contact-page-section textarea {
+    height: 90px
+}
+
+.ecofee-contact-page-section .wpcf7 form .wpcf7-response-output {
+    margin: 0;
+    padding: .2em 1em;
+    border: 2px solid #a06f48;
+    font-size: 14px
+}
+
+.wpcf7-spinner {
+    display: block
+}
+
+#efarm-home-contact-box input[type=text],
+#efarm-home-contact-box input[type=email],
+#efarm-home-contact-box textarea {
+    border: 2px solid #c5c5c5;
+    padding: 13px 15px;
+    margin-bottom: 11px;
+    width: 100%
+}
+
+#efarm-home-contact-box .efarm-phone-box {
+    display: flex
+}
+
+.efarm-phone-box input[type=text] {
+    width: 95% !important
+}
+
+#efarm-home-contact-box input[type=text]::placeholder,
+#efarm-home-contact-box input[type=email]::placeholder,
+#efarm-home-contact-box textarea::placeholder {
+    font: medium 16px/22px Manrope;
+    letter-spacing: 0;
+    color: #707070
+}
+
+#efarm-home-contact-box input[type=submit] {
+    background: #286016;
+    font: bold 18px/40px Manrope;
+    letter-spacing: 0;
+    color: #fff;
+    border: 1px solid #286016;
+    padding: 5px 35px;
+    border-radius: 5px
+}
+
+#efarm-contact-sec .efarm-contact-right-box {
+    position: relative;
+    top: 60px
+}
+
+#efarm-contact-sec .efarm-contact-content-box {
+    transform: translate(0, 11em);
+    width: 70%;
+    margin: 0 auto
+}
+
+#efarm-home-contact-box {
+    right: -38px;
+    z-index: 9;
+    top: 0
+}
+
+.efarm-contact-right-box .efarm-contact-sticker {
+    top: -60px;
+    right: 33px;
+    position: absolute
+}
+
+.ecoffee-blog-with-no-sidebar-page-title h2 {
+    background-color: #a06f48;
+    width: max-content;
+    padding: 8px 20px;
+    border-radius: 10px;
+    display: inline-block
+}
+
+#elemento-coffee-blog-page-section .ea-comments.ea-flex.ea-flex-middle {
+    position: unset;
+    bottom: 0%;
+    right: 0%;
+    font-size: 16px
+}
+
+#elemento-coffee-blog-page-section .ea-amox-grid .ea-comments {
+    margin-left: 30px
+}
+
+#elemento-coffee-blog-page-section .ea-button-wrap {
+    margin-top: 5px
+}
+
+#elemento-coffee-blog-page-section .ea-item {
+    padding: 20px !important;
+    background-color: #fff
+}
+
+#elemento-coffee-blog-page-section .ea-button-wrap {
+    border-bottom: none !important;
+    padding-bottom: 0
+}
+
+.elemento-coffee-blog-section .ea-item {
+    padding: 20px 20px 40px !important;
+    background-color: #fff
+}
+
+.elemento-coffee-blog-section .ea-comments.ea-flex.ea-flex-middle {
+    position: absolute;
+    bottom: 4%;
+    right: 10%;
+    font-size: 16px
+}
+
+.elemento-coffee-blog-section .ea-button-wrap {
+    border-bottom: 1px solid #f2f2f2 !important;
+    padding-bottom: 15px
+}
+
+.elemento-coffee-blog-section-title h2 {
+    background-color: #ff6f00;
+    width: max-content;
+    padding: 8px 20px;
+    border-radius: 10px;
+    display: inline-block
+}
+
+.elemento-coffee-blog-section .swiper-pagination-bullet-active {
+    border: 1px solid !important
+}
+
+.elemento-coffee-blog-section .swiper-pagination-bullet {
+    border: 1px solid #000 !important;
+    opacity: 1;
+    background: unset
+}
+
+.elemento-coffee-blog-section .swiper-pagination-bullet-active {
+    border: none !important;
+    background-color: #a06f48
+}
+
+#efarm-blog-sec .ea-meta {
+    display: inline-block
+}
+
+#efarm-blog-sec .ea-date {
+    float: right
+}
+
+#efarm-blog-sec .ea-blog-author {
+    float: left
+}
+
+.elemento-coffee-blog-section .ea-text p {
+    font-family: jost;
+    color: #1c1c1c;
+}
+
+.elemento-coffee-blog-section .ea-button-wrap {
+    margin-top: 25px
+}
+
+.elemento-coffee-blog-section span.ea-readmore-icon {
+    position: relative !important
+}
+
+.elemento-coffee-blog-section span.ea-readmore-icon::after {
+    font-family: fontawesome;
+    font-weight: 600;
+    position: absolute;
+    content: "\f178";
+    margin-left: 10%;
+    width: 25px;
+    height: 25px
+}
+
+.elemento-coffee-blog-section span.ea-readmore-icon {
+    text-transform: uppercase;
+    font-family: jost;
+    color: #ff6f00;
+    font-weight: 500;
+    line-height: 25px
+}
+
+.elemento-coffee-blog-section .ea-button-wrap a:hover span.ea-readmore-icon::after {
+    color: #8e6341 !important
+}
+
+.elemento-coffee-blog-section span.ea-readmore-icon :hover {
+    color: #8e6341 !important;
+    text-transform: uppercase;
+    font-family: jost;
+    font-weight: 500;
+    line-height: 25px !important
+}
+
+.elemento-coffee-blog-section .ea-item .ea-content .ea-date {
+    display: none
+}
+
+.elemento-coffee-blog-section .ea-item:hover .ea-content .ea-date {
+    display: block;
+    transition: .5s ease
+}
+
+.elemento-coffee-blog-section .ea-item {
+    position: relative
+}
+
+.elemento-coffee-blog-section .ea-date {
+    transition: 1s ease;
+    transform: translateY(-28%);
+    background-color: #121212;
+    padding: 10px;
+    color: #fff;
+    font-family: jost;
+    font-size: 16px;
+    margin-left: 0;
+    position: absolute;
+    top: 28%
+}
+
+.elemento-coffee-blog-section .ea-item .ea-title:hover .ea-date {
+    display: block !important
+}
+
+#efarm-blog-sec .ea-content {
+    background: #f8f7f1;
+    border-radius: 10px;
+    margin-top: 15px;
+    padding: 22px 30px !important
+}
+
+.ecoffee-blog-section {
+    position: relative
+}
+
+.ecoffee-footer-upper-image img {
+    position: absolute;
+    z-index: 2;
+    left: -6%
+}
+
+.ecoffee-our-services-page-section .ecoffee-about-us-section-bgimg1 img {
+    position: absolute;
+    top: -50px;
+    left: 0;
+    z-index: 9
+}
+
+.ecoffee-service-section {
+    position: relative
+}
+
+.ecoffee-service-section .elementor-widget-wrap {
+    padding: 0 !important
+}
+
+.ecoffee-service-section-bgimg1 img {
+    position: absolute;
+    left: 0;
+    bottom: 0
+}
+
+.ecoffee-service-section-bgimg2 img {
+    position: absolute;
+    right: 0;
+    bottom: 10px
+}
+
+.elemento-coffee-service-section .ekit-header-info>li>a svg path {
+    fill: #a06f48 !important
+}
+
+.ecoffee-our-services-section .ea-amox-grid .ea-img-wrap .ea-img {
+    width: 40%
+}
+
+.ecoffee-our-service-whatwe-section-title h2 {
+    background-color: #a06f48;
+    padding: 8px 20px;
+    border-radius: 10px;
+    display: inline-block
+}
+
+.ecoffee-our-services-page-section .elementor-widget-wrap {
+    padding: 0 !important
+}
+
+.efarm-service-slide-box .ea-alter-carousel .ea-content {
+    display: block;
+    margin: 0 auto
+}
+
+#Footer-blog-widgets .ekit-wid-con .elementskit-blog-block-post {
+    padding: 5px;
+    background-color: unset;
+    -webkit-box-shadow: unset
+}
+
+.elemento-coffee-newsletter-section .wpcf7 form .wpcf7-response-output {
+    border: 2px solid #a06f48 !important;
+    color: #fff;
+    font-family: jost;
+    width: max-content;
+    margin: 0 auto !important
+}
+
+.elemento-coffee-newsletter-section .wpcf7-not-valid-tip {
+    color: #fff;
+    font-family: jost';
+
+}
+
+.elemento-coffee-newsletter-section-title h2 {
+    background-color: #a06f48;
+    width: max-content;
+    padding: 8px 20px;
+    border-radius: 10px;
+    display: inline-block
+}
+
+.elemento-coffee-newsletter-section input[type=submit] {
+    padding: 10px;
+    background: #a06f48;
+    border: 1px solid #a06f48;
+    border-radius: 0 5px 5px 0;
+    color: #fff;
+    position: absolute !important;
+    right: 0 !important;
+    top: 0 !important
+}
+
+.elemento-coffee-newsletter-section form {
+    width: 40% !important;
+    margin: 0 auto !important;
+    position: relative !important
+}
+
+.elemento-coffee-newsletter-section input[type=email] {
+    padding: 10px;
+    border: 1px solid #fff;
+    background-color: transparent !important;
+    border-radius: 5px;
+    border-right: 1px solid #a06f48;
+    color: #fff;
+    width: 100%
+}
+
+.elemento-coffee-newsletter-section {
+    text-align: center
+}
+
+#sb_instagram #sbi_images .sbi_item {
+    position: relative
+}
+
+#sb_instagram #sbi_images .sbi_item .sbi_photo_wrap {
+    color: #a06f48
+}
+
+#sb_instagram #sbi_images .sbi_item .sbi_photo_wrap a:after {
+    content: '\f16d';
+    font-family: fontawesome;
+    color: #fff;
+    position: absolute;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    left: 50%;
+    font-size: 22px;
+    opacity: 0
+}
+
+#sb_instagram #sbi_images .sbi_item .sbi_photo_wrap:hover a:after {
+    opacity: 1
+}
+
+#sb_instagram #sbi_images {
+    margin-left: -8px;
+    margin-top: 5px
+}
+
+.ecoffee-footer-section .post-meta-list>span {
+    margin: 0;
+    padding: 0 !important
+}
+
+.ecoffee-footer-section .elementskit-blog-block-post .order-2 {
+    padding: 0 !important
+}
+
+.ecoffee-instagram #sb_instagram.sbi_fixed_height {
+    overflow: unset;
+    overflow-y: unset
+}
+
+.ecoffee-instagram #sb_instagram .sb_instagram_header,
+.sb_instagram_header {
+    display: none
+}
+
+.ecoffee-instagram #sb_instagram #sbi_load {
+    display: none
+}
+
+.ecoffee-footer-section .elementor-divider {
+    opacity: .2
+}
+
+#efarm-footer-nes-letter input[type=submit] {
+    font-family: 'font awesome 5 free' !important;
+    padding: 10px 15px;
+    position: absolute;
+    right: 0;
+    border: 1px solid #286016;
+    background: #286016;
+    color: #fff;
+    border-radius: 5px
+}
+
+#efarm-footer-nes-letter input[type=email] {
+    width: 100%;
+    padding: 10px;
+    background: #fff;
+    border: 1px solid #fff;
+    border-radius: 5px
+}
+
+#efarm-footer-nes-letter p {
+    position: relative
+}
+
+#return-to-top {
+    position: fixed;
+    bottom: 10px;
+    right: 20px;
+    background-color: #a06f48;
+    width: 50px;
+    height: 50px;
+    display: block;
+    text-decoration: none;
+    -webkit-border-radius: 35px;
+    -moz-border-radius: 35px;
+    border-radius: 35px;
+    display: none;
+    -webkit-transition: all .3s linear;
+    -moz-transition: all .3s ease;
+    -ms-transition: all .3s ease;
+    -o-transition: all .3s ease;
+    transition: all .3s ease;
+    z-index: 99999
+}
+
+#return-to-top i {
+    color: #fff;
+    font-weight: 600px;
+    position: relative;
+    top: 13px;
+    font-size: 19px;
+    -webkit-transition: all .3s ease;
+    -moz-transition: all .3s ease;
+    -ms-transition: all .3s ease;
+    -o-transition: all .3s ease;
+    transition: all .3s ease;
+    padding: 3px 18px
+}
+
+#return-to-top:hover {
+    background-color: #000
+}
+
+#return-to-top:hover i {
+    color: #fff;
+    top: 5px
+}
+
+#return-to-top .elementor-icon i:before,
+.elementor-icon svg:before {
+    position: absolute;
+    left: 32%
+}
+
+.woocommerce ul.products li.product .star-rating,
+.star-rating {
+    display: block;
+    overflow: hidden;
+    position: relative;
+    line-height: 1;
+    font-size: 1em;
+    font-family: star
+}
+
+.woocommerce ul.products li.product .star-rating {
+    color: #fec806;
+    margin: 0 auto;
+    float: none;
+    height: 1.7em;
+    width: 5.4em;
+    font-family: star
+}
+
+.star-rating {
+    color: #ffca04;
+    font-size: .857em;
+    height: 1em;
+    width: 5.4em;
+    margin-bottom: 13px;
+    margin-top: 5px
+}
+
+.woocommerce .star-rating::before {
+    content: "\73\73\73\73\73";
+    color: #d3ced2;
+    float: left;
+    top: 0;
+    left: 0;
+    position: absolute
+}
+
+.star-rating span {
+    overflow: hidden;
+    float: left;
+    top: 0;
+    left: 0;
+    position: absolute;
+    padding-top: 1.5em
+}
+
+.woocommerce .star-rating span::before {
+    content: "\53\53\53\53\53";
+    top: 0;
+    position: absolute;
+    left: 0
+}
+
+.shop-page .star-rating span::before,
+.shop-page .star-rating::befores {
+    left: 46px !important
+}
+
+ul.sub-menu {
+    position: absolute;
+    background: #fff !important;
+    padding: 0;
+    top: 100%;
+    left: 0;
+    margin-top: 0;
+    margin-bottom: 0;
+    min-width: 180px;
+    z-index: 99;
+    visibility: hidden;
+    opacity: 0;
+    -webkit-box-shadow: 0 18px 43px rgb(90 90 90/14%);
+    -khtml-box-shadow: 0 18px 43px rgba(90, 90, 90, .14);
+    -moz-box-shadow: 0 18px 43px rgba(90, 90, 90, .14);
+    -ms-box-shadow: 0 18px 43px rgba(90, 90, 90, .14);
+    -o-box-shadow: 0 18px 43px rgba(90, 90, 90, .14);
+    box-shadow: 0 18px 43px rgb(90 90 90/14%);
+    -webkit-transition: all 220ms linear 0ms;
+    -khtml-transition: all 220ms linear 0ms;
+    -moz-transition: all 220ms linear 0ms;
+    -ms-transition: all 220ms linear 0ms;
+    -o-transition: all 220ms linear 0ms;
+    transition: all 220ms linear 0ms;
+    -webkit-border-radius: 2px;
+    -khtml-border-radius: 2px;
+    -moz-border-radius: 2px;
+    -ms-border-radius: 2px;
+    -o-border-radius: 2px;
+    border-radius: 2px;
+    clip: unset !important;
+    -webkit-transform: scaleY(0);
+    -khtml-transform: scaleY(0);
+    -moz-transform: scaleY(0);
+    -ms-transform: scaleY(0);
+    -o-transform: scaleY(0);
+    transform: scaleY(0);
+    transform-origin: 0 0 0;
+    -webkit-transform-origin: 0 0 0;
+    -ms-transform-origin: 0 0 0;
+    -o-transform-origin: 0 0 0;
+    text-align: left
+}
+
+.elemento-farm-navigation-box nav.hfe-nav-menu__layout-horizontal li:hover .sub-menu {
+    visibility: visible;
+    opacity: 1;
+    clip: inherit;
+    -webkit-transform: scaleY(1);
+    -khtml-transform: scaleY(1);
+    -moz-transform: scaleY(1);
+    -ms-transform: scaleY(1);
+    -o-transform: scaleY(1);
+    transform: scaleY(1)
+}
+
+.elemento-farm-navigation-box .sub-menu li a:before {
+    content: '';
+    width: 100%;
+    height: 1px;
+    position: absolute;
+    bottom: 0;
+    background-color: #fff;
+    left: 0;
+    transform-origin: right center;
+    -webkit-transform-origin: right center;
+    -webkit-transform: scale(0, 1);
+    -khtml-transform: scale(0, 1);
+    -moz-transform: scale(0, 1);
+    -ms-transform: scale(0, 1);
+    -o-transform: scale(0, 1);
+    transform: scale(0, 1);
+    -webkit-transition: transform .3s cubic-bezier(.37, .31, .2, .85);
+    -khtml-transition: transform .3s cubic-bezier(.37, .31, .2, .85);
+    -moz-transition: transform .3s cubic-bezier(.37, .31, .2, .85);
+    -ms-transition: transform .3s cubic-bezier(.37, .31, .2, .85);
+    -o-transition: transform .3s cubic-bezier(.37, .31, .2, .85);
+    transition: transform .3s cubic-bezier(.37, .31, .2, .85)
+}
+
+.sub-menu li {
+    border-bottom: unset !important
+}
+
+.elemento-farm-navigation-box .sub-menu li:hover>a:before {
+    transform-origin: left center;
+    -webkit-transform-origin: left center;
+    -webkit-transform: scale(1, 1);
+    -khtml-transform: scale(1, 1);
+    -moz-transform: scale(1, 1);
+    -ms-transform: scale(1, 1);
+    -o-transform: scale(1, 1);
+    transform: scale(1, 1)
+}
+
+.woocommerce .loader::before {
+    display: none !important
+}
+
+.woocommerce .quantity .qty {
+    height: 36px
+}
+
+.woocommerce #respond input#submit.alt,
+.woocommerce a.button.alt,
+.woocommerce button.button.alt,
+.woocommerce input.button.alt {
+    background: #a06f48
+}
+
+.woocommerce-notices-wrapper .woocommerce span.onsale {
+    color: #a06f48 !important
+}
+
+.tax-product_cat .ecoffee-topbar-mobile-no-section .ekit-header-info>li>a {
+    color: #000 !important
+}
+
+.tax-product_cat .ecoffee-topbar-mail-section .ekit-header-info>li>a {
+    color: #000 !important
+}
+
+.tax-product_cat .ecoffee-topbar-map-section .ekit-header-info>li>a {
+    color: #000 !important
+}
+
+.tax-product_cat .ecoffee-topbar-social-media-section li a {
+    color: #000 !important
+}
+
+.category-post_cat .ecoffee-topbar-mobile-no-section .ekit-header-info>li>a {
+    color: #000 !important
+}
+
+.category-post_cat .ecoffee-topbar-mail-section .ekit-header-info>li>a {
+    color: #000 !important
+}
+
+.category-post_cat .ecoffee-topbar-map-section .ekit-header-info>li>a {
+    color: #000 !important
+}
+
+.category-post_cat .ecoffee-topbar-social-media-section li a {
+    color: #000 !important
+}
+
+.category-post_cat .container h1 {
+    margin-top: 50px !important
+}
+
+#single-product-page .wp-block-search__button {
+    background: #a06f48 !important;
+    color: #fff !important;
+    padding: 5px !important;
+    font-family: jost
+}
+
+.woocommerce div.product .woocommerce-tabs .panel {
+    margin: 0 0 2em;
+    padding: 0;
+    font-family: jost
+}
+
+.single-product .ecoffee-topbar-mobile-no-section .ekit-header-info>li>a {
+    color: #000 !important
+}
+
+.single-product .ecoffee-topbar-mail-section .ekit-header-info>li>a {
+    color: #000 !important
+}
+
+.single-product .ecoffee-topbar-map-section .ekit-header-info>li>a {
+    color: #000 !important
+}
+
+.single-product .ecoffee-topbar-social-media-section li a {
+    color: #000 !important
+}
+
+.single-product #maincontent {
+    margin-top: 40px
+}
+
+.woocommerce-account .ecoffee-topbar-mobile-no-section .ekit-header-info>li>a {
+    color: #000 !important
+}
+
+.woocommerce-account .ecoffee-topbar-mail-section .ekit-header-info>li>a {
+    color: #000 !important
+}
+
+.woocommerce-account .ecoffee-topbar-map-section .ekit-header-info>li>a {
+    color: #000 !important
+}
+
+.woocommerce-account .ecoffee-topbar-social-media-section li a {
+    color: #000 !important
+}
+
+.woocommerce-account .woocommerce .col2-set,
+.woocommerce-page .col2-set {
+    width: 88%;
+    margin: 0 auto;
+    padding: 50px 0
+}
+
+.woocommerce-cart .ecoffee-topbar-mobile-no-section .ekit-header-info>li>a {
+    color: #000 !important
+}
+
+.woocommerce-cart .ecoffee-topbar-mail-section .ekit-header-info>li>a {
+    color: #000 !important
+}
+
+.woocommerce-cart .ecoffee-topbar-map-section .ekit-header-info>li>a {
+    color: #000 !important
+}
+
+.woocommerce-cart .ecoffee-topbar-social-media-section li a {
+    color: #000 !important
+}
+
+.woocommerce-cart .woocommerce .container {
+    margin-top: 30px !important
+}
+
+.woocommerce-checkout .ecoffee-topbar-mobile-no-section .ekit-header-info>li>a {
+    color: #000 !important
+}
+
+.woocommerce-checkout .ecoffee-topbar-mail-section .ekit-header-info>li>a {
+    color: #000 !important
+}
+
+.woocommerce-checkout .ecoffee-topbar-map-section .ekit-header-info>li>a {
+    color: #000 !important
+}
+
+.woocommerce-checkout .ecoffee-topbar-social-media-section li a {
+    color: #000 !important
+}
+
+.woocommerce-checkout #coffee-main-header {
+    margin-bottom: 0 !important
+}
+
+.woocommerce-checkout .woocommerce .container {
+    margin-top: 30px !important
+}
+
+.woocommerce div.product .woocommerce-tabs ul.tabs li.active {
+    background: unset;
+    z-index: 2;
+    border-bottom-color: unset;
+    border-bottom: 2px solid #a06f48
+}
+
+.comment-meta a {
+    color: #000 !important
+}
+
+.woocommerce div.product .woocommerce-tabs ul.tabs {
+    padding: 0 0 0 0
+}
+
+.woocommerce div.product .woocommerce-tabs ul.tabs li {
+    margin: 0 22px;
+    padding: 12px 1em
+}
+
+.panel.entry-content {
+    box-shadow: rgb(17 17 26/5%) 0 1px 0, rgb(17 17 26/10%) 0 0 8px;
+    padding: 30px !important
+}
+
+.woocommerce #respond input#submit,
+.woocommerce a.button,
+.woocommerce button.button,
+.woocommerce input.button {
+    background: #a06f48;
+    color: #fff
+}
+
+.posted_in a,
+a.woocommerce-review-link,
+.product-name a {
+    color: #666
+}
+
+.woocommerce div.product .woocommerce-tabs ul.tabs {
+    text-align: center;
+    border-top: 1px solid #a06f48;
+    border-bottom: 1px solid #a06f48
+}
+
+.woocommerce div.product .woocommerce-tabs ul.tabs li {
+    border: unset;
+    background-color: unset
+}
+
+.woocommerce div.product .woocommerce-tabs ul.tabs::before {
+    border: unset
+}
+
+.woocommerce div.product .woocommerce-tabs ul.tabs li::before {
+    left: -5px;
+    border-bottom-right-radius: 0;
+    border-width: 0;
+    box-shadow: unset
+}
+
+.woocommerce div.product .woocommerce-tabs ul.tabs li::after {
+    right: -5px;
+    border-bottom-left-radius: 0;
+    border-width: 0;
+    box-shadow: unset
+}
+
+.woocommerce div.product .woocommerce-tabs ul.tabs li a {
+    font-size: 20px
+}
+
+.woocommerce #respond input#submit.alt:hover,
+.woocommerce a.button.alt:hover,
+.woocommerce button.button.alt:hover,
+.woocommerce input.button.alt:hover {
+    background-color: #00392c
+}
+
+.woocommerce #content table.cart td.actions .input-text,
+.woocommerce table.cart td.actions .input-text,
+.woocommerce-page #content table.cart td.actions .input-text,
+.woocommerce-page table.cart td.actions .input-text {
+    width: 120px
+}
+
+.woocommerce form .form-row input.input-text,
+.woocommerce form .form-row textarea {
+    padding: 10px
+}
+
+.select2-container .select2-selection--single,
+.select2-container--default .select2-selection--single .select2-selection__arrow {
+    height: 43px
+}
+
+.select2-container--default .select2-selection--single .select2-selection__rendered {
+    line-height: 40px
+}
+
+li.product.type-product {
+    text-align: center
+}
+
+.woocommerce ul.products li.product .woocommerce-loop-product__title {
+    font-size: 18px;
+    color: #000
+}
+
+li.product.type-product {
+    text-align: center;
+    box-shadow: rgb(14 93 43/23%) 0 4px 12px;
+    padding: 20px 15px !important;
+    position: relative;
+    top: 0;
+    transition: .5s
+}
+
+li.product.type-product:hover {
+    top: -20px;
+    transition: .5s
+}
+
+ul.products {
+    padding-top: 35px !important
+}
+
+#efarm-pro-sidebar input[type=text],
+.elemento-widget-sidebar input[type=text] {
+    width: 100%;
+    padding: 11px 10px
+}
+
+#efarm-pro-sidebar input[type=submit],
+.elemento-widget-sidebar input[type=submit] {
+    width: 100%;
+    padding: 12px 0;
+    background: #225f1f;
+    color: #fff;
+    font-size: 18px;
+    font-weight: 600;
+    border: unset;
+    margin-top: 12px
+}
+
+#efarm-pro-sidebar .widget,
+.elemento-widget-sidebar .widget {
+    border: 1px solid #a06f48;
+    padding: 20px;
+    margin-bottom: 30px;
+    overflow-y: hidden
+}
+
+#efarm-pro-sidebar :where(.wp-block-search__button) {
+    border: 1px solid #a06f48;
+    background: #a06f48;
+    color: #fff;
+    padding: 5px !important;
+    font-family: jost;
+    font-size: 16px
+}
+
+#efarm-pro-sidebar ol.wp-block-latest-comments {
+    margin-top: 20px
+}
+
+#efarm-pro-sidebar .wp-block-group__inner-container {
+    font-family: jost
+}
+
+#efarm-pro-sidebar .wp-block-group__inner-container h2 {
+    font-size: 24px;
+    padding: 6px 10px;
+    border-bottom: 1px solid #e7e7e7;
+    background-color: #a06f48;
+    color: #fff;
+    font-family: jost;
+    font-weight: 600
+}
+
+.wp-block-latest-comments a {
+    color: #000 !important
+}
+
+#efarm-pro-sidebar h3.widget-title,
+.elemento-widget-sidebar h3.widget-title {
+    font-size: 24px;
+    padding: 6px 10px;
+    border-bottom: 1px solid #e7e7e7;
+    font-family: jost;
+    color: #000;
+    background-color: #a06f48;
+    color: #fff;
+    font-weight: 600
+}
+
+#efarm-pro-sidebar .wp-widget-group__inner-blocks {
+    margin-top: 10px
+}
+
+#efarm-pro-sidebar .wp-block-latest-posts {
+    margin-top: 10px
+}
+
+#efarm-pro-sidebar .widget ul li,
+#efarm-pro-sidebar .widget ul li a,
+.elemento-widget-sidebar .widget ul li,
+.elemento-widget-sidebar .widget ul li a {
+    color: #000;
+    font-size: 16px;
+    font-weight: 400;
+    padding: 10px 0;
+    font-family: jost
+}
+
+#elemento-coffee-blog-page-section .ea-amox-grid .ea-comments {
+    margin-left: 0 !important
+}
+
+#efarm-pro-sidebar .widget.widget_recent_entries ul li a,
+.elemento-widget-sidebar .widget.widget_recent_entries ul li a {
+    margin-left: 0
+}
+
+#efarm-pro-sidebar .widget.widget_recent_entries ul li:before,
+#efarm-pro-sidebar .widget.widget_recent_entries ul li:after,
+.elemento-widget-sidebar .widget.widget_recent_entries ul li:before,
+.elemento-widget-sidebar .widget.widget_recent_entries ul li:after {
+    display: none
+}
+
+#efarm-pro-sidebar .recent-post-box,
+.elemento-widget-sidebar .recent-post-box {
+    display: flex;
+    align-items: center
+}
+
+#efarm-pro-sidebar .post-thumb,
+.elemento-widget-sidebar .post-thumb {
+    width: 35%
+}
+
+#efarm-pro-sidebar .post-content,
+.elemento-widget-sidebar .post-content {
+    padding-left: 12px
+}
+
+#sidebar {
+    margin-top: 0 !important
+}
+
+.single-page-metaimage {
+    padding: 0 5rem
+}
+
+div#respond {
+    font-family: jost
+}
+
+#single_post .feature-box img {
+    height: 350px !important;
+    position: absolute !important;
+    top: 0 !important;
+    z-index: -10
+}
+
+.efarm-blog-page .ea-item {
+    -webkit-box-shadow: 0 0 57px 0 rgb(0 0 0/11%);
+    box-shadow: 0 0 57px 0 rgb(0 0 0/11%);
+    padding: 20px
+}
+
+.efarm-blog-page .ea-text p {
+    padding: 20px 0
+}
+
+.efarm-blog-page .ea-button-wrap {
+    padding-top: 20px
+}
+
+.efarm-blog-page span.ea-readmore-icon {
+    font-size: 18px;
+    text-transform: capitalize;
+    font-weight: 600
+}
+
+.ebs-single-post-page {
+    width: 100%;
+    min-width: calc(100% - 20%);
+    margin: 0 auto;
+    margin-block: 3%
+}
+
+#commentform input[type=text],
+#commentform input[type=email],
+#commentform textarea {
+    width: 30%
+}
+
+#commentform label {
+    display: block
+}
+
+.form-submit input,
+.post-readmore {
+    font-family: manrope, Sans-serif;
+    text-transform: uppercase;
+    background-color: #286016;
+    padding: 20px 15px 15px;
+    color: #fff;
+    font-size: 16px;
+    border: none
+}
+
+.ebs-single-post-page .single-content,
+.ebs-single-post-page .metabox {
+    margin-block: 10px
+}
+
+.ebs-single-post-page .metabox>*:not(:last-child) {
+    margin-inline-end: 20px
+}
+
+.ebs-single-post-page .metabox i,
+.ebs-single-post-page .socila_share a {
+    color: #a06f48
+}
+
+.ebs-single-post-page path {
+    fill: #a06f48
+}
+
+.ebs-single-post-page .metabox :is(span, a) {
+    font-size: 16px;
+    color: #707070;
+    font-weight: 400
+}
+
+.ebs-single-post-page .post_ctg {
+    display: flex
+}
+
+.ebs-single-post-page .post_ctg ul {
+    margin-inline-start: 10px
+}
+
+.ebs-single-post-page .post_ctg ul a,
+.logged-in-as a {
+    color: #000;
+    font-weight: 700
+}
+
+.share_icon {
+    position: relative
+}
+
+.social-btn {
+    display: inline-block;
+    width: 50px;
+    height: 50px;
+    background: #f1f1f1;
+    margin: 6px;
+    border-radius: 30%;
+    box-shadow: 0 5px 15px -5px #00000070;
+    color: #3498db;
+    overflow: hidden;
+    position: relative
+}
+
+.socila_share svg {
+    padding: 0
+}
+
+.social-btn path {
+    line-height: 50px;
+    font-size: 26px;
+    transition: .2s linear
+}
+
+.social-btn i {
+    line-height: 50px;
+    font-size: 26px;
+    transition: .2s linear
+}
+
+.social-btn:hover i {
+    transform: scale(1.3);
+    color: #fff
+}
+
+.socila_share b {
+    position: relative;
+    top: -25px
+}
+
+@keyframes aaa {
+    0% {
+        left: -110%;
+        top: 90%
+    }
+
+    50% {
+        left: 10%;
+        top: -30%
+    }
+
+    100% {
+        top: -10%;
+        left: -10%
+    }
+}
+
+.demo {
+    background: #fff;
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0
+}
+
+.loader img {
+    width: 70%
+}
+
+.loader {
+    width: 300px;
+    height: 300px;
+    margin: 0 auto;
+    position: relative;
+    top: 30%
+}
+
+.loader .loader-inner-1 {
+    width: 270px;
+    height: 270px;
+    border-radius: 50%;
+    border-bottom: 10px dashed #a06f48;
+    position: absolute;
+    animation: loading-1 5s infinite linear
+}
+
+.loader .loader-inner-2 {
+    width: 170px;
+    height: 170px;
+    border-radius: 50%;
+    border-bottom: 10px dotted #ffb67a;
+    position: absolute;
+    top: 50px;
+    left: 45px;
+    animation: loading-1 1s infinite linear
+}
+
+.loader .loader-inner-3 {
+    width: 70px;
+    height: 70px;
+    border-radius: 50%;
+    border-bottom: 5px solid #805810;
+    position: absolute;
+    top: 100px;
+    left: 90px;
+    animation: loading-1 2s infinite linear
+}
+
+@keyframes loading-1 {
+    from {
+        -webkit-transform: rotate(0deg)
+    }
+
+    to {
+        -webkit-transform: rotate(360deg)
+    }
+}
+
+.postbox {
+    box-shadow: rgb(149 157 165/20%) 0 8px 24px;
+    padding: 25px;
+    margin-bottom: 30px
+}
+
+a.search-post-readmore {
+    color: #286016;
+    font-weight: 600
+}
+
+.search .ecoffee-topbar-mobile-no-section .ekit-header-info>li>a {
+    color: #000 !important
+}
+
+.search .ecoffee-topbar-mail-section .ekit-header-info>li>a {
+    color: #000 !important
+}
+
+.search .ecoffee-topbar-map-section .ekit-header-info>li>a {
+    color: #000 !important
+}
+
+.search .ecoffee-topbar-social-media-section li a {
+    color: #000 !important
+}
+
+.efarm-blog-page .ea-item {
+    -webkit-box-shadow: 0 0 57px 0 rgb(0 0 0/11%);
+    box-shadow: 0 0 57px 0 rgb(0 0 0/11%);
+    padding: 20px 20px 55px
+}
+
+.efarm-blog-page .ea-text p {
+    padding: 20px 0
+}
+
+.efarm-blog-page .ea-button-wrap {
+    padding-top: 20px
+}
+
+.ebs-single-post-page {
+    margin: 0 auto;
+    margin-block: 8%
+}
+
+.content-box {
+    background-color: #fff;
+    transform: translateY(0%)
+}
+
+.single-page-title {
+    font: 600 36px/60px Jost;
+    color: #242424;
+    font-family: jost
+}
+
+.single-author-image img {
+    width: 25%;
+    border-radius: 50%
+}
+
+.single-author-image a {
+    font: normal 20px/105px Poppins;
+    letter-spacing: 0;
+    color: #242424;
+    font-family: jost
+}
+
+.single-post-content p {
+    font: 400 19px/40px Poppins;
+    letter-spacing: .5px;
+    color: #242424;
+    font-family: jost, Sans-serif
+}
+
+.meta-box-question {
+    font: 500 30px/50px Jost;
+    color: #242424
+}
+
+.single-page-metaimage img {
+    width: 100%
+}
+
+.single-post-social-box .cat-item a {
+    font: 400 14px/18px Poppins;
+    color: #242424
+}
+
+li.cat-item {
+    list-style-type: none
+}
+
+.single-post-social-box li a {
+    padding: 5px 15px;
+    border: 1px solid #bcbcbc;
+    border-radius: 5px;
+    background: #fff 0% 0% no-repeat padding-box
+}
+
+.single-page-metabox {
+    align-items: center
+}
+
+span.entry-date,
+span.entry-comments {
+    font: normal 20px/105px Poppins;
+    color: #707070;
+    font-family: jost
+}
+
+.single-post-comment {
+    margin-top: 11em;
+    width: 60%;
+    background: #fff 0% 0% no-repeat padding-box;
+    box-shadow: 0 3px 6px #00000029;
+    border-radius: 10px
+}
+
+.single-post-nav .nav-previous {
+    text-align: left
+}
+
+.single-post-nav .nav-next {
+    text-align: right
+}
+
+.form-submit input[type=submit] {
+    font-family: jost, Sans-serif;
+    font-size: 20px;
+    font-weight: 500;
+    color: #fff;
+    background-color: #a06f48;
+    border-radius: 10px;
+    border: 1px solid #a06f48;
+    padding: 8px 30px
+}
+
+#comments input[type=text],
+#comments input[type=email],
+#comments textarea {
+    width: 100%;
+    padding: 8px 10px
+}
